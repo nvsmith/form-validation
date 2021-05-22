@@ -1,0 +1,47 @@
+body{
+    font-family: arial;
+    color: #333;
+}
+h1, h3{
+    font-weight: normal;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form{
+    width: 500px;
+    margin: 20px auto;
+}
+input{
+    display: block;
+    padding: 8px 16px;
+    font-size: 2em;
+    margin: 10px auto;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+    outline: none !important;
+}
+
+/* Validation Styles */
+
+input.valid{
+  border-color: #46bb46;
+}
+
+input.invalid{
+  border-color: #edb842;
+}
+
+input + p{
+  color: #ccc;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 20px;
+  height: auto;
+}
+
+input.invalid + p{
+  color: #edb842;
+}
